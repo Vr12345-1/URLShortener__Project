@@ -1,7 +1,7 @@
 import pyshorteners
 
 def shorten_url(long_url):
-    """Converts a long URL into a shortened URL."""
+
     try:
         s = pyshorteners.Shortener()
         short_url = s.tinyurl.short(long_url)
