@@ -1,11 +1,3 @@
-# url_shortener.py
-"""
-URL Shortener
-Author: Vishwarajan
-Description:
-This script converts long URLs into short links using the TinyURL service via PyShorteners library.
-"""
-
 import pyshorteners
 
 def shorten_url(long_url):
